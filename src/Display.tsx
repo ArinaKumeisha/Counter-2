@@ -36,7 +36,7 @@ export const Display = (props: DisplayType) => {
                 </button>
                 <button
                     className={"resetButton"}
-                    disabled={props.status === "error"}
+                    disabled={props.status === "error"} //
                     onClick={props.resetHandler}>reset
                 </button>
             </div>
