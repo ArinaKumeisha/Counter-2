@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.errorM {
+    color: red
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.errorValue {
+    border: red solid 3px;
+    background-color: pink;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button-container {
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: lawngreen;
+
+
 }
 
-.App-link {
-  color: #61dafb;
+.display-container {
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid blue;
+    border-radius: 10px;
+    background-color: lawngreen;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.setButton {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.incButton {
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: bisque;
+    margin-right: 30px;
+}
+
+.resetButton {
+    margin-top: 30px;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.number {
+    color: red;
+    font-size: 20px;
+    margin-left: 40px
+}
+
+.truNumber {
+
+    font-size: 20px;
+    margin-left: 50px
+
 }
